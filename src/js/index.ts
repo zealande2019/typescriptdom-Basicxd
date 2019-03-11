@@ -43,16 +43,18 @@ console.log('Opgave 3:')
 // let HideEm = document.getElementById("3").setAttribute("hidden", "true");
 
 // Punkt 3
-// function myFunction() 
-// {
-//     let gettingIdLI = document.getElementsByTagName('li');
-//     for(let i = 0; i < gettingIdLI.length; i++)
-//     {
-//     document.getElementById(i).classList.remove("usundt");
-//     document.getElementById(i).classList.add("sundt")
-//     }
-// }
-// myFunction()
+function myFunction() 
+{
+    let gettingIdLI = document.getElementsByTagName('li');
+    for(let i = 0; i < gettingIdLI.length; i++)
+    {
+    
+        gettingIdLI[i].setAttribute("class", "usundt");
+    // document.getElementById(i).classList.remove("usundt");
+    // document.getElementById(i).classList.add("sundt")
+    }
+}
+myFunction()
 
 // function run2(){
 //     let gettingIdLI = document.getElementsByTagName('li');
